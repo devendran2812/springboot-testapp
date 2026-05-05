@@ -1,0 +1,33 @@
+springboot-testapp
+│
+├── src/main/java/com/example/testapp
+│   ├── TestAppApplication.java
+│   │
+│   ├── controller/
+│   │   └── CustomerController.java
+│   │
+│   ├── service/
+│   │   ├── CustomerService.java
+│   │   └── ExternalService.java
+│   │
+│   ├── repository/
+│   │   └── CustomerRepository.java
+│   │
+│   ├── entity/
+│   │   └── Customer.java
+│   │
+│   ├── config/
+│   │   └── AppConfig.java
+│   │
+│   ├── logging/
+│   │   └── LoggingAspect.java
+│   │
+│   └── exception/
+│       └── GlobalExceptionHandler.java
+│
+├── src/main/resources/
+│   ├── application.properties
+│
+├── postman_collection.json
+├── pom.xml
+└── README.md
